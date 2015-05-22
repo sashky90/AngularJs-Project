@@ -1,3 +1,43 @@
-/**
- * Created by Sasho on 5/22/2015.
- */
+'use strict';
+
+socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentication) {
+    function getNewsFeedPosts() {
+        return $http({
+            method: 'GET',
+            url: baseServiceUrl + 'me/feed?StartPostId=&PageSize=5',
+            headers: authentication.getHeaders()
+        })
+    }
+
+    function getUserWallPosts(username) {
+        return $http({
+            method: 'GET',
+            url: baseServiceUrl + 'users/' + username + '/wall?PageSize=5',
+            headers: authentication.getHeaders()
+        })
+    }
+
+    function getPostById(postId) {
+        return $http({
+            method: 'GET',
+            url: baseServiceUrl + 'Posts/' + postId,
+            headers: authentication.getHeaders()
+        })
+    }
+
+    //function addNewPost(postData) {
+    //    return $http({
+    //        method: 'POST',
+    //        url: baseServiceUrl + 'posts',
+    //        headers: authentication.getHeaders(),
+    //        data: postData
+    //            .success
+    //    })
+    //}
+
+    return {
+        getNewsFeedPosts: getNewsFeedPosts,
+        getUserWallPosts: getUserWallPosts,
+        getPostById: getPostById
+    }
+});
