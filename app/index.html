@@ -9,7 +9,7 @@
 </head>
 <body ng-app="socialNetworkApp" ng-controller="appController">
 
-<header id="header" ng-if="authenticated" ></header>
+<header id="header" ng-if="authenticated()" logged-in-user-header></header>
 
 <div class='col-md-8' ng-view></div>
 
@@ -54,6 +54,9 @@
 <script src="js/controllers/userControllers/foreignUserHeaderController.js"></script>
 <script src="js/controllers/userControllers/loggedInUserHeaderController.js"></script>
 <script src="js/controllers/userControllers/searchUsersController.js"></script>
+
+<!-- Directives declarations-->
+<script src="js/directives/loggedInUserHeader.js"></script>
 
 
 </body>
