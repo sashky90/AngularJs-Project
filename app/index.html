@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
     <link rel="stylesheet" href="css/app.css" />
 
     <meta charset="UTF-8">
-    <title>Angular Seed</title>
+    <title>Social Network</title>
 </head>
-<body>
-<h1>Angular Seed</h1>
+<body ng-app="socialNetworkApp" ng-controller="appController">
+
+<header id="header" ng-if="authenticated" ></header>
+
+<div class='col-md-8' ng-view></div>
 
 <!-- Libraries declarations-->
 <script src="lib/angular/angular.js"></script>
@@ -18,18 +21,21 @@
 <script src="lib/jquery.noty/jquery.noty.js"></script>
 <script src="lib/bootstrap/bootstrap-3.1.1.js"></script>
 <script src="lib/ui.bootstrap/ui.bootstrap.pagination-0.12.0.js"></script>
+<script src="lib/ngStorage.js"></script>
 
 <!-- App declaration-->
 <script src="js/app.js"></script>
 
 <!-- Services declarations-->
+<script src="js/services/notifyService.js"></script>
 <script src="js/services/authService.js"></script>
 <script src="js/services/commentService.js"></script>
 <script src="js/services/userService.js"></script>
 <script src="js/services/friendsService.js"></script>
 <script src="js/services/postsService.js"></script>
 <script src="js/services/profileService.js"></script>
-<script src="js/services/notifyService.js"></script>
+
+
 
 <!-- Controllers declarations-->
 <script src="js/controllers/appController.js"></script>
@@ -48,6 +54,7 @@
 <script src="js/controllers/userControllers/foreignUserHeaderController.js"></script>
 <script src="js/controllers/userControllers/loggedInUserHeaderController.js"></script>
 <script src="js/controllers/userControllers/searchUsersController.js"></script>
+
 
 </body>
 </html>

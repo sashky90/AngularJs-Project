@@ -1,6 +1,6 @@
 'use strict';
 
-app.factory('notifyService',
+socialNetwork.factory('notifyService',
     function () {
         return {
             showInfo: function(msg) {
