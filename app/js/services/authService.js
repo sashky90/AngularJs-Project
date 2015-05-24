@@ -10,7 +10,7 @@ socialNetwork.factory('authentication', function ($sessionStorage) {
     }
 
     function clearUserData() {
-        $sessionStorage.reset();
+        $sessionStorage.$reset();
     }
 
     function getHeaders() {

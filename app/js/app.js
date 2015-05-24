@@ -33,6 +33,6 @@ socialNetwork.config(function ($routeProvider) {
     });
 });
 
-socialNetwork.run(function ($rootScope, $location, authentication) {
+socialNetwork.run(function ($rootScope, $location, authentication, notifyService) {
 
 });
