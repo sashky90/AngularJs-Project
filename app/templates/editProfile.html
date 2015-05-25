@@ -1,0 +1,42 @@
+<div>
+    <form >
+        <div>
+            <h3>Edit profile information</h3>
+        </div>
+
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" ng-model="editedData.name"/>
+        </div>
+
+        <div>
+            <label>Email:</label>editedData
+            <input type="email" name="email" ng-model="editedData.email"/>
+        </div>
+        <div>
+            <label>Gender: </label>
+            <input type="radio" value="Other" ng-model="editedData.gender">Other</label>
+            <input type="radio" value="Male" ng-model="editedData.gender">Male</label>
+            <input type="radio" value="Female" ng-model="editedData.gender">Female</label>
+        </div>
+    </form>
+
+    <form >
+        <div >
+            <div>
+                <img ng-src="{{editedData.profileImageData}}" base-sixty-four-image="editedData.profileImageData" />
+                <input type="file" ng-model="editedData.profileImageData" base-sixty-four-input/>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img ng-src="{{editedData.coverImageData}}" base-sixty-four-image="editedData.coverImageData" />
+                <input type="file" ng-model="ownData.coverImageData" base-sixty-four-input/>
+            </div>
+        </div>
+    </form>
+
+    <div >
+        <button ng-click="editOwnProfile(editedData)">Submit changes</button>
+    </div>
+</div>

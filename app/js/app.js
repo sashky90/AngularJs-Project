@@ -28,20 +28,25 @@ socialNetwork.config(function ($routeProvider) {
         templateUrl: 'templates/home.html'
     });
 
+    $routeProvider.when('/profile', {
+        templateUrl: 'templates/editProfile.html',
+        controller: 'editProfileController'
+    });
+
     $routeProvider.otherwise({
         redirectTo: '/welcome'
     });
 });
 
 socialNetwork.run(function ($rootScope, $location, authentication, notifyService) {
-    //$rootScope.$on('$locationChangeStart', function(event) {
-    //    var isWelcome = $location.path().indexOf('/welcome'),
-    //        isRegister = $location.path().indexOf('/register'),
-    //        isLogin = $location.path().indexOf('/login');
-    //
-    //    if (!authentication.isLoggedIn() && (isWelcome == -1 && isRegister == -1 && isLogin == -1)) {
-    //        notifyService.showInfo("Login or register first.");
-    //        $location.path("/welcome");
-    //    }
-    //});
+    $rootScope.$on('$locationChangeStart', function(event) {
+        var isWelcome = $location.path().indexOf('/welcome'),
+            isRegister = $location.path().indexOf('/register'),
+            isLogin = $location.path().indexOf('/login');
+
+        if (!authentication.isLoggedIn() && (isWelcome == -1 && isRegister == -1 && isLogin == -1)) {
+            notifyService.showInfo("Login or register first.");
+            $location.path("/welcome");
+        }
+    });
 });
