@@ -22,7 +22,19 @@ socialNetwork.controller('editProfileController', function ($scope, $location, p
                 $location.path('/home');
             },
             function error(error) {
-                notifyService.showError('Error with data request.', error)
+                notifyService.showError('Error with data request.', error);
+            }
+        )
+    };
+    
+    $scope.editPassword = function () {
+        profileService.editPassword($scope.editedPassword).then(
+            function success(data) {
+                notifyService.showInfo('Password successfully changed.');
+                $location.path('/home');
+            },
+            function error(error) {
+                notifyService.showError('Error with data request', error);
             }
         )
     }

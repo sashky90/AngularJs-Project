@@ -33,6 +33,11 @@ socialNetwork.config(function ($routeProvider) {
         controller: 'editProfileController'
     });
 
+    $routeProvider.when('/profile/password', {
+        templateUrl: 'templates/editPassword.html',
+        controller: 'editProfileController'
+    });
+
     $routeProvider.otherwise({
         redirectTo: '/welcome'
     });
