@@ -1,9 +1,9 @@
 <div>
-    <img>
+    <img ng-src="{{loggedUserProfile.profileImageData}}">
 </div>
 
 <nav>
-    <a href=""></a>
+    <a href="#/users/{{loggedUserProfile.username}}">{{loggedUserProfile.name}}({{loggedUserProfile.username}})</a>
     <ul>
         <li><a href="#/home">Home</a></li>
         <li><a href="#/profile">Edit profile</a></li>
