@@ -62,6 +62,19 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
         })
     }
 
+    function getAvailablePostOptions(post, currentUserUsername) {
+        post.deleteButtonAvailable =
+            post.author.username == currentUserUsername ||
+            post.wallOwner.username == currentUserUsername;
+
+        if (post.author.isFriend || post.wallOwner.isFriend || post.deleteButtonAvailable) {
+            post.likeDislikeOptionAvailable = true;
+            post.commentOptionAvailable = true;
+        }
+
+        return post;
+    }
+
     return {
         getNewsFeedPosts: getNewsFeedPosts,
         getUserWallPosts: getUserWallPosts,
@@ -69,9 +82,8 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
         addNewPost: addNewPost,
         deletePost: deletePost,
         likePost: likePost,
-        unlikePost: unlikePost
-
-
+        unlikePost: unlikePost,
+        getAvailablePostOptions: getAvailablePostOptions
 
     }
 });

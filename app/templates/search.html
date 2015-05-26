@@ -4,7 +4,6 @@
         <ul>
             <li ng-repeat="foundUser in foundUsers">
                 <img ng-src="{{foundUser.profileImageData}}" alt=""/>
-                <p>{{foundUser.name}}</p>
-                <span>User Preview</span>
+                <span user-preview user-username="foundUser.username" user-name="foundUser.name"></span>
             </li>
         </ul>

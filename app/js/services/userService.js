@@ -44,7 +44,7 @@ socialNetwork.factory('userService', function ($http, baseServiceUrl, authentica
 
     function getUserPreviewData(username) {
         return $http({
-            method: 'GEE',
+            method: 'GET',
             url: baseServiceUrl + 'users/' + username + '/preview',
             headers: authentication.getHeaders()
         })
