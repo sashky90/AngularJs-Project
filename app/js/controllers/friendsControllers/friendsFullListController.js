@@ -1,6 +1,6 @@
 'use strict';
 
-socialNetwork.controller('FriendsFullListController', function ($scope, $location, $routeParams, userService, friendsService , authentication, notifyService) {
+socialNetwork.controller('friendsFullListController', function ($scope, $location, $routeParams, userService, friendsService , authentication, notifyService) {
     var user = authentication.getUserData().username;
 
     $scope.getUserData = function(wallOwnerUsername) {

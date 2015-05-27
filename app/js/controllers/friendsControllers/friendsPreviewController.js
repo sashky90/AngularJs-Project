@@ -23,6 +23,7 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
             function success(ownFriendsPreview) {
                 $scope.userFriendsData.friendsCount = ownFriendsPreview.data.totalCount;
                 $scope.userFriendsData.friends = ownFriendsPreview.data.friends;
+                $scope.userFriendsData.previewOwner = user;
             },
             function error(error) {
                 notifyService.showError('Cannot proceed data request', error);

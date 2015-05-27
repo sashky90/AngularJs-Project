@@ -2,6 +2,8 @@
 
 socialNetwork.factory('authentication', function ($sessionStorage) {
     function setUserData(data) {
+        data.username = data.userName;
+        delete data.userName;
         $sessionStorage.user = data;
     }
 
