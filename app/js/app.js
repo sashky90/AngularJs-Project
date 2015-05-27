@@ -38,6 +38,17 @@ socialNetwork.config(function ($routeProvider) {
         controller: 'editProfileController'
     });
 
+    $routeProvider.when('/users/:username/', {
+        templateUrl: 'templates/userWall.html',
+        controller: 'feedPostsController'
+    });
+
+    $routeProvider.when('/users/:username/friends', {
+        controller: 'friendsFullListController',
+        templateUrl: 'templates/friendsFullList.html'
+    });
+
+
     $routeProvider.otherwise({
         redirectTo: '/welcome'
     });

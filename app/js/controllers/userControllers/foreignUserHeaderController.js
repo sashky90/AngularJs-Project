@@ -1,6 +1,6 @@
 'use strict';
 
-socialNetwork.controller('UserHeaderController', function($scope, $routeParams, authentication, userService, notifyService) {
+socialNetwork.controller('userHeaderController', function($scope, $routeParams, authentication, userService, notifyService) {
     var user = authentication.getUserData().username;
 
     $scope.getUserData = function(wallOwnerUsername) {

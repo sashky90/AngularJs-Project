@@ -5,21 +5,30 @@ socialNetwork.controller('friendRequestController', function ($scope, friendsSer
         friendsService.getFriendRequest().then(
             function success(friendRequests) {
                 $scope.friendRequests = friendRequests.data;
-                $scope.requestsVisible = true;
+                $scope.showRequests();
             },
             function error(error) {
-                notifyService.showError('Error with data request', error)
+                notifyService.showError('Error with data request', error);
             }
         )
+    };
+
+    $scope.showRequests = function () {
+        $scope.requestsVisible = true;
+    };
+
+    $scope.hideRequests = function () {
+        $scope.requestsVisible = false;
     };
 
     $scope.approveRequest = function (requestedId) {
         friendsService.approveFriendRequest(requestedId).then(
             function success(data) {
-                notifyService.showInfo('Successfully approved friend request')
+                notifyService.showInfo('Successfully approved friend request');
+                $scope.getFriendRequest();
             },
             function error(error) {
-                notifyService.showError('Unable to approve friend request.', error)
+                notifyService.showError('Unable to approve friend request.', error);
             }
         )
     };
@@ -27,10 +36,11 @@ socialNetwork.controller('friendRequestController', function ($scope, friendsSer
     $scope.rejectRequest = function (requestedId) {
       friendsService.rejectFriendRequest(requestedId).then(
           function success(data) {
-              notifyService.showInfo('Successfully rejected friend request.')
+              notifyService.showInfo('Successfully rejected friend request.');
+              $scope.getFriendRequest();
           },
           function error(error) {
-              notifyService.showError('Unable to reject friend request.', error)
+              notifyService.showError('Unable to reject friend request.', error);
           }
       )
     };

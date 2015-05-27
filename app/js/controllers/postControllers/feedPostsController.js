@@ -1,6 +1,6 @@
 'use strict';
 
-socialNetwork.controller('feedPostsController', function ($scope, postsService, authentication, notifyService) {
+socialNetwork.controller('feedPostsController', function ($scope, $location, $routeParams, postsService, authentication, notifyService) {
     var user = authentication.getUserData().username;
 
     $scope.getNewsFeedPosts = function () {

@@ -1,0 +1,7 @@
+<span><a href="#/users/{{userFriendsData.previewOwner}}/friends">Friends: {{userFriendsData.friendsCount}}</a></span>
+<ul>
+    <li ng-repeat="friend in userFriendsData.friends">
+        <img ng-src="{{friend.profileImageData}}" alt="{{friend.name}}" />
+        <span user-preview user-username="friend.username" user-name="friend.name"></span>
+    </li>
+</ul>
