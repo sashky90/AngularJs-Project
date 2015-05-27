@@ -4,7 +4,7 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
     function getNewsFeedPosts() {
         return $http({
             method: 'GET',
-            url: baseServiceUrl + 'me/feed?StartPostId=&PageSize=5',
+            url: baseServiceUrl + 'me/feed?PageSize=5',
             headers: authentication.getHeaders()
         })
     }

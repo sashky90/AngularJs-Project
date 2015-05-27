@@ -17,7 +17,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
             }
         )
     };
-    $scope.getNewsFeedPosts();
+    //$scope.getNewsFeedPosts();
 
     $scope.getUserWallPosts = function (username) {
         postsService.getUserWallPosts(username).then(
@@ -26,7 +26,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
 
                     post = postsService.getAvailablePostOptions(post, user);
                 });
-                $scope.userWallPosts = userWallPosts.data;
+                $scope.posts = userWallPosts.data;
             },
             function error(error) {
                 notifyService.showError('Cannot proceed data request.')

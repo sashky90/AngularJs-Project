@@ -10,7 +10,7 @@ socialNetwork.controller('userHeaderController', function($scope, $routeParams, 
                 $scope.postOptionAvailable = wallOwnerProfile.data.isFriend ||
                 wallOwnerProfile.data.username == user;
 
-                $scope.friendsPreviewAvailable = wallOwnerProfile.data.isFriend;
+                $scope.friendsPreviewAvailable = $scope.postOptionAvailable;
 
                 $scope.wallOwner = wallOwnerProfile.data;
             },

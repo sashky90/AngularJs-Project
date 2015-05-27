@@ -39,8 +39,7 @@ socialNetwork.config(function ($routeProvider) {
     });
 
     $routeProvider.when('/users/:username/', {
-        templateUrl: 'templates/userWall.html',
-        controller: 'feedPostsController'
+        templateUrl: 'templates/userWall.html'
     });
 
     $routeProvider.when('/users/:username/friends', {
