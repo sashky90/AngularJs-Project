@@ -10,7 +10,6 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
             function success(userFriends) {
                 $scope.userFriendsData.friendsCount = userFriends.data.totalCount;
                 $scope.userFriendsData.friends = userFriends.data.friends;
-                $scope.userFriendsData.previewOwner = $routeParams.username;
             },
             function error(error) {
                 notifyService.showError('Cannot proceed data request', error);
@@ -23,7 +22,6 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
             function success(ownFriendsPreview) {
                 $scope.userFriendsData.friendsCount = ownFriendsPreview.data.totalCount;
                 $scope.userFriendsData.friends = ownFriendsPreview.data.friends;
-                $scope.userFriendsData.previewOwner = user;
             },
             function error(error) {
                 notifyService.showError('Cannot proceed data request', error);
@@ -32,14 +30,12 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
     };
 
     $scope.loadFriendsPreview = function(username) {
-        if ($location.path().indexOf('/users/') > -1) {
-            if (username == user) {
-                $scope.getOwnFriendsPreview();
-            } else {
-                $scope.getUserFriendsPreview(username);
-            }
-        } else if ($location.path().indexOf('/home') > -1) {
+        if (username == user || $location.path().indexOf('/home') > -1) {
             $scope.getOwnFriendsPreview();
+            $scope.userFriendsData.previewOwner = user;
+        } else if($location.path().indexOf('/users/') > -1) {
+            $scope.getUserFriendsPreview(username);
+            $scope.userFriendsData.previewOwner = username;
         }
     };
 

@@ -1,10 +1,12 @@
 'use strict';
 
-socialNetwork.controller('userPreviewController', function ($scope, userService, friendsService, notifyService) {
+socialNetwork.controller('userPreviewController', function ($scope, userService, friendsService, authentication, notifyService) {
+    var user = authentication.getUserData().username;
+
     $scope.getUserPreview = function (username) {
         userService.getUserPreviewData(username).then(
             function success(previewedUser) {
-                $scope.canInviteUser = !previewedUser.data.isFriend && !previewedUser.data.hasPendingRequest;
+                $scope.canInviteUser = !previewedUser.data.isFriend && !previewedUser.data.hasPendingRequest && previewedUser.data.username != user;
                 $scope.previewedUser = previewedUser.data;
                 $scope.userPreviewShown = true;
             },
