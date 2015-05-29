@@ -1,6 +1,6 @@
 'use strict';
 
-socialNetwork.controller('editProfileController', function ($scope, $location, profileService, notifyService) {
+socialNetwork.controller('editProfileController', function ($scope, $rootScope, $location, profileService, notifyService) {
 
     $scope.getProfileData = function() {
         profileService.getOwnProfileData().then(
@@ -28,7 +28,7 @@ socialNetwork.controller('editProfileController', function ($scope, $location, p
         profileService.editOwnProfileData(editedData).then(
             function success(result) {
                 notifyService.showInfo("Successfully edited profile information.");
-                $scope.getProfileData();
+                $rootScope.loggedUserHeaderData = editedData;
                 $location.path('/home');
             },
             function error(error) {

@@ -1,15 +1,15 @@
-<div class="box">
-    <h2>Login</h2>
-    <p>
-        <label for="username">Username:</label>
-        <input type="text" id="username" ng-model="user.username" placeholder="Username" required />
-    </p>
-    <p>
-        <label for="password">Password:</label>
-        <input type="password" id="password" ng-model="user.password" placeholder="Password" required />
-    </p>
-    <p>
-        <a ng-click="login(user)" class="btn">Login</a>
-        <a href="#/register" class="link">Register</a>
-    <p>
-</div>
+
+
+<div class="container">
+
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" id="inputUsername" class="form-control"  ng-model="user.username" placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" ng-model="user.password" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block"  ng-click="login(user)" type="submit">Sign in</button>
+        <a class="btn btn-lg btn-block" href="#/register" class="link">Register</a>
+    </form>
+
+</div> <!-- /container -->

@@ -1,9 +1,11 @@
-<form name="searchForm">
-    <input type="text" name="search" ng-model="searchName" ng-change="search(searchName)"/>
+<form class="navbar-form navbar-right" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" ng-model="searchName" ng-change="search(searchName)" placeholder="Search">
+    </div>
 </form>
-        <ul>
-            <li ng-repeat="foundUser in foundUsers">
-                <img ng-src="{{foundUser.profileImageData}}" alt=""/>
-                <span user-preview user-username="foundUser.username" user-name="foundUser.name"></span>
-            </li>
-        </ul>
+<ul>
+    <li ng-repeat="foundUser in foundUsers">
+        <img ng-src="{{foundUser.profileImageData}}" alt=""/>
+        <span user-preview user-username="foundUser.username" user-name="foundUser.name"></span>
+    </li>
+</ul>

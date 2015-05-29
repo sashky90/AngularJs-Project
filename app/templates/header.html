@@ -1,20 +1,32 @@
-<div>
-    <img ng-src="{{loggedUserProfile.profileImageData}}">
-</div>
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div>
+                <img class="nav-img" ng-src="{{loggedUserProfile.profileImageData}}">
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li><a href="#/users/{{loggedUserProfile.username}}">{{loggedUserProfile.name}}({{loggedUserProfile.username}})</a></li>
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/profile">Edit profile</a></li>
+                <li>
+                    <a href="" ng-click="getFriendRequest()">Friendship Requests</a>
+                    <ul friend-request ng-show="requestsVisible"></ul>
+                </li>
+                <li><a href="#/profile/password">Change Password</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/logout">Logout</a></li>
+            </ul>
+            <div user-search></div>
 
-<nav>
-    <a href="#/users/{{loggedUserProfile.username}}">{{loggedUserProfile.name}}({{loggedUserProfile.username}})</a>
-    <ul>
-        <li><a href="#/home">Home</a></li>
-        <li><a href="#/profile">Edit profile</a></li>
-        <li>
-            <a href="" ng-click="getFriendRequest()">Friendship Requests</a>
-            <ul friend-request ng-show="requestsVisible"></ul>
-        </li>
-
-        <li><a href="#/profile/password">Change Password</a></li>
-        <li><a href="#/logout">Logout</a></li>
-
-    </ul>
-    <div user-search></div>
+        </div>
+    </div>
 </nav>

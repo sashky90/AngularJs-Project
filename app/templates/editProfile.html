@@ -1,42 +1,40 @@
-<div>
-    <form >
-        <div>
-            <h3>Edit profile information</h3>
-        </div>
+<div class="container">
 
-        <div>
-            <label>Name:</label>
-            <input type="text" name="name" ng-model="editedData.name"/>
-        </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form role="form">
+                <h2 class="text-center">Edit Profile Information</h2>
+                <div class="form-group">
+                    <input type="text" name="name" id="name" class="form-control input-lg" ng-model="editedData.name" placeholder="Name" tabindex="1" required>
+                </div>
 
-        <div>
-            <label>Email:</label>editedData
-            <input type="email" name="email" ng-model="editedData.email"/>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control input-lg" ng-model="editedData.email" placeholder="Email Address" tabindex="3">
+                </div>
+                <div class="form-group">
+                    <label>Gender: </label>
+                    <input type="radio" value="Other" ng-model="editedData.gender">Other</label>
+                    <input type="radio" value="Male" ng-model="editedData.gender">Male</label>
+                    <input type="radio" value="Female" ng-model="editedData.gender">Female</label>
+                </div>
+                <div >
+                    <label>Profile Picture: </label>
+                    <div>
+                        <img class="img-editProfile" ng-src="{{editedData.profileImageData}}" base-sixty-four-image="editedData.profileImageData" />
+                        <input type="file" ng-model="editedData.profileImageData" base-sixty-four-input/>
+                    </div>
+                </div>
+                <div>
+                    <label>Cover Picture: </label>
+                    <div>
+                        <img class="img-editProfile" ng-src="{{editedData.coverImageData}}" base-sixty-four-image="editedData.coverImageData" />
+                        <input type="file" ng-model="editedData.coverImageData" base-sixty-four-input/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6"><button class="btn btn-success btn-block btn-lg" ng-click="editOwnProfile(editedData)">Submit changes</button></div>
+                </div>
+            </form>
         </div>
-        <div>
-            <label>Gender: </label>
-            <input type="radio" value="Other" ng-model="editedData.gender">Other</label>
-            <input type="radio" value="Male" ng-model="editedData.gender">Male</label>
-            <input type="radio" value="Female" ng-model="editedData.gender">Female</label>
-        </div>
-    </form>
-
-    <form >
-        <div >
-            <div>
-                <img ng-src="{{editedData.profileImageData}}" base-sixty-four-image="editedData.profileImageData" />
-                <input type="file" ng-model="editedData.profileImageData" base-sixty-four-input/>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img ng-src="{{editedData.coverImageData}}" base-sixty-four-image="editedData.coverImageData" />
-                <input type="file" ng-model="ownData.coverImageData" base-sixty-four-input/>
-            </div>
-        </div>
-    </form>
-
-    <div >
-        <button ng-click="editOwnProfile(editedData)">Submit changes</button>
     </div>
 </div>

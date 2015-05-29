@@ -1,34 +1,45 @@
-<div class="box">
-    <h2>Register</h2>
-    <p>
-        <label for="username">Username:</label>
-        <input type="text" id="username" ng-model="user.username" placeholder="Username" required />
-    </p>
-    <p>
-        <label for="password">Password:</label>
-        <input type="password" id="password" ng-model="user.password" placeholder="Password" required />
-    </p>
-    <p>
-        <label for="confirmPassword">Confirm password:</label>
-        <input type="password" id="confirmPassword" ng-model="user.confirmPassword" placeholder="Password" required />
-    </p>
-    <p>
-        <label for="name">Name:</label>
-        <input type="text" id="name" ng-model="user.name" placeholder="Name" required />
-    </p>
-    <p>
-        <label for="email">Email:</label>
-        <input type="text" id="email" ng-model="user.email" placeholder="Email" required />
-    </p>
 
-    <p>
-        <label>Gender: </label>
-        <input type="radio" value="Other" ng-model="user.gender">Other</label>
-        <input type="radio" value="Male" ng-model="user.gender">Male</label>
-        <input type="radio" value="Female" ng-model="user.gender">Female</label>
-    </p>
-    <p>
-        <a ng-click="register(user)" class="button">Register</a>
-        <a href="#/login" class="link">Login</a>
-    <p>
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form role="form">
+                <h2>Please Sign Up <small>It's free and always will be.</small></h2>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" class="form-control input-lg" ng-model="user.name" placeholder="Name" tabindex="1" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="username" id="username" class="form-control input-lg" ng-model="user.username" placeholder="Username" tabindex="2">
+                        </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control input-lg" ng-model="user.email" placeholder="Email Address" tabindex="3">
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" name="password" id="password" class="form-control input-lg" ng-model="user.password" placeholder="Password" tabindex="5">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" ng-model="user.confirmPassword" placeholder="Confirm Password" tabindex="6">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Gender: </label>
+                    <input type="radio" value="Other" ng-model="user.gender">Other</label>
+                    <input type="radio" value="Male" ng-model="user.gender">Male</label>
+                    <input type="radio" value="Female" ng-model="user.gender">Female</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-6"><a class="btn btn-success btn-block btn-lg" ng-click="register(user)">Register</a></div>
+                    <div class="col-xs-12 col-md-6"><a href="#/login" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
