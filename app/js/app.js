@@ -53,15 +53,19 @@ socialNetwork.config(function ($routeProvider) {
     });
 });
 
-socialNetwork.run(function ($rootScope, $location, authentication, notifyService) {
+socialNetwork.run(function($rootScope, $location, authentication, notifyService) {
     $rootScope.$on('$locationChangeStart', function(event) {
         var isWelcome = $location.path().indexOf('/welcome'),
             isRegister = $location.path().indexOf('/register'),
             isLogin = $location.path().indexOf('/login');
 
         if (!authentication.isLoggedIn() && (isWelcome == -1 && isRegister == -1 && isLogin == -1)) {
-            notifyService.showInfo("Login or register first.");
+            notifyService.showError("Login or register first.");
             $location.path("/welcome");
+        } else if (authentication.isLoggedIn() && (isWelcome > -1 || isRegister > -1 || isLogin > -1)) {
+            notifyService.showError("Cant go there. Logout first.");
+            $location.path("/home");
         }
+
     });
 });

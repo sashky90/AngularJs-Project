@@ -14,6 +14,14 @@ socialNetwork.controller('editProfileController', function ($scope, $rootScope, 
 
     $scope.getProfileData();
 
+    $('.profileUpload').on('click', function(event) {
+        $('#profileInput').click();
+    });
+
+    $('.coverUpload').on('click', function(event) {
+        $('#coverInput').click();
+    });
+
     $scope.editOwnProfile = function(editedData) {
         if (editedData.profileImageData) {
             editedData.profileImageData = $scope.formatImageString(editedData.profileImageData.base64) ||
@@ -47,5 +55,6 @@ socialNetwork.controller('editProfileController', function ($scope, $rootScope, 
                 notifyService.showError('Error with data request', error);
             }
         )
-    }
+    };
+
 });

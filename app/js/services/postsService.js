@@ -38,6 +38,17 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
         })
     }
 
+    function editPost(postId, newPostContent) {
+        return $http({
+            method: 'PUT',
+            url: baseServiceUrl + 'posts/' + postId,
+            headers: authentication.getHeaders(),
+            data: {
+                postContent: newPostContent
+            }
+        });
+    }
+
     function deletePost(postId) {
         return $http({
             method: 'DELETE',
@@ -63,6 +74,8 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
     }
 
     function getAvailablePostOptions(post, currentUserUsername) {
+        post.editOptionAvailable = post.author.username == currentUserUsername;
+
         post.deleteButtonAvailable =
             post.author.username == currentUserUsername ||
             post.wallOwner.username == currentUserUsername;
@@ -80,6 +93,7 @@ socialNetwork.factory('postsService', function ($http, baseServiceUrl, authentic
         getUserWallPosts: getUserWallPosts,
         getPostById: getPostById,
         addNewPost: addNewPost,
+        editPost: editPost,
         deletePost: deletePost,
         likePost: likePost,
         unlikePost: unlikePost,

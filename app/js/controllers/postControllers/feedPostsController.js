@@ -2,6 +2,7 @@
 
 socialNetwork.controller('feedPostsController', function ($scope, $location, $routeParams, postsService, authentication, notifyService) {
     var user = authentication.getUserData().username;
+    $scope.editPostContainer = {};
 
     $scope.getNewsFeedPosts = function () {
         postsService.getNewsFeedPosts().then(
@@ -61,17 +62,39 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
         )
     };
 
-    $scope.deletePost = function(postId) {
-        postsService.deletePost(postId).then(
+    $scope.deletePost = function(post) {
+        postsService.deletePost(post.id).then(
             function success(result) {
                 notifyService.showInfo("Successfully deleted post.");
-                $scope.loadPosts();
+
+                $scope.posts = $scope.posts.filter(function(p) {
+                    return p.id != post.id;
+                });
             },
             function error(error) {
-                notifyService.showError("Error while deleting post.", error);
+                notifyService.showError("Error while deleting post.");
             })
     };
 
+    $scope.editPost = function(post) {
+        postsService.editPost(post.id, $scope.editPostContainer[post.id]).then(
+            function success(result) {
+                notifyService.showInfo("Successfully edited post.");
+                post.postContent = $scope.editPostContainer[post.id];
+                $scope.editPostContainer[post.id] = undefined;
+            },
+            function error(error) {
+                notifyService.showError("Error while editing post.");
+            })
+    };
+
+    $scope.enableEditPost = function(post) {
+        $scope.editPostContainer[post.id] = post.postContent;
+    };
+
+    $scope.cancelEditPost = function(post) {
+        $scope.editPostContainer[post.id] = undefined;
+    };
     $scope.likePost = function(postId) {
         postsService.likePost(postId).then(
             function success(result) {
