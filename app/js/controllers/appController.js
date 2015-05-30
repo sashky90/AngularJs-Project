@@ -7,7 +7,10 @@ socialNetwork.controller('appController', function ($scope, authentication) {
     };
 
     $scope.formatImageString = function (data) {
-        return 'data:image/jpeg;base64,' + data;
+        if(data) {
+            return 'data:image/jpeg;base64,' + data;
+        }
+        return null;
     };
 
 
