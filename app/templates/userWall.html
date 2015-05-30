@@ -1,9 +1,9 @@
 <header user-header></header>
 
-<div ng-if="postOptionAvailable">
+<div class="text-center post-form" ng-if="postOptionAvailable">
     <form name="newPostForm">
-        <input type="text" name="postContent" placeholder="Post something here..." ng-model="postContent" />
-        <button ng-click="addNewPost(postContent)">Submit</button>
+        <input class="form-control input-lg" type="text" name="postContent" placeholder="Post something here..." ng-model="postContent" />
+        <button class="btn btn-success btn-lg" ng-click="addNewPost(postContent)">Submit</button>
     </form>
 </div>
 

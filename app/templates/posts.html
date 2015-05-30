@@ -1,8 +1,8 @@
-<div ng-repeat="post in posts">
+<div ng-repeat="post in posts" class="post-item">
     <header>
         <img ng-src="{{post.author.profileImageData}}" />
 
-        <div>
+        <div class="">
             <span user-preview user-username="post.author.username" user-name="post.author.name"></span>
             <span> posted to </span>
             <span user-preview user-username="post.wallOwner.username" user-name="post.wallOwner.name"></span>
@@ -17,7 +17,7 @@
 
         <section class="postContent">
             <textarea class="editPostTextarea" ng-if="editPostContainer[post.id]" ng-model="editPostContainer[post.id]"></textarea>
-            <span ng-if="!editPostContainer[post.id]">{{post.postContent}}</span>
+
         </section>
         <p>
             <span>Likes: {{post.likesCount}}</span>
@@ -31,16 +31,17 @@
 			<span ng-if="post.commentOptionAvailable">
 				<button ng-click="commentPost(postId)">Comment&nbsp;&#x270E;</button>
 			</span>
-        <div ng-if="post.editOptionAvailable">
+        <div ng-if="post.editOptionAvailable" class="post-edit-buttons">
             <button ng-if="!editPostContainer[post.id]" ng-click="enableEditPost(post)">Edit&nbsp;&#x270E;</button>
             <div ng-if="editPostContainer[post.id]">
                 <button ng-click="editPost(post)">Save&nbsp;&#128078;</button>
                 <button ng-click="cancelEditPost(post)">Cancel&nbsp;&#x2718;</button>
             </div>
-        </div>
-			<span ng-if="post.deleteButtonAvailable">
+            <span ng-if="post.deleteButtonAvailable">
 				<button ng-click="deletePost(post.id)">Delete&nbsp;&#x2718;</button>
 			</span>
+        </div>
+
         </p>
     </footer>
 </div>

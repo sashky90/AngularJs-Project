@@ -63,12 +63,12 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
     };
 
     $scope.deletePost = function(post) {
-        postsService.deletePost(post.id).then(
+        postsService.deletePost(post).then(
             function success(result) {
                 notifyService.showInfo("Successfully deleted post.");
 
                 $scope.posts = $scope.posts.filter(function(p) {
-                    return p.id != post.id;
+                    return p.id != post;
                 });
             },
             function error(error) {
