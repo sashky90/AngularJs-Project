@@ -123,3 +123,11 @@ body {
 .friends-list li ~ li { margin-left: 50px; }
 .friends-list li img { display: inline-block; width: 100% height: auto; }
 .friends-list li span { display: block; text-align: center; }
+
+.navbar {
+    background-color: aqua;
+}
+
+.navbar-nav > li > a {
+    color: #000 !important;
+}
