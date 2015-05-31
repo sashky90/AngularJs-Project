@@ -3,7 +3,7 @@
         <input type="text" class="form-control" ng-model="searchName" ng-change="search(searchName)" placeholder="Search">
     </div>
 </form>
-<ul>
+<ul  class="search-results">
     <li ng-repeat="foundUser in foundUsers">
         <img ng-src="{{foundUser.profileImageData}}" alt=""/>
         <span user-preview user-username="foundUser.username" user-name="foundUser.name"></span>

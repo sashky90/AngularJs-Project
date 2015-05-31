@@ -8,7 +8,7 @@ socialNetwork.controller('editProfileController', function ($scope, $rootScope, 
                 $scope.editedData = profile.data;
             },
             function error(error) {
-                notifyService.showError('Error with data request', error);
+                notifyService.showError('Error with data request');
             });
     };
 
@@ -44,7 +44,7 @@ socialNetwork.controller('editProfileController', function ($scope, $rootScope, 
                 $location.path('/home');
             },
             function error(error) {
-                notifyService.showError('Error with data request', error);
+                notifyService.showError('Error with data request');
             }
         )
     };

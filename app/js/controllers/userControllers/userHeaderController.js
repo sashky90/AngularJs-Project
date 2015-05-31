@@ -15,7 +15,7 @@ socialNetwork.controller('userHeaderController', function($scope, $routeParams, 
                 $scope.wallOwner = wallOwnerProfile.data;
             },
             function error(error) {
-                notifyService.showError("Error with data request.", error);
+                notifyService.showError('Error with data request');
             });
     };
 

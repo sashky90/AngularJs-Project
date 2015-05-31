@@ -9,7 +9,7 @@ socialNetwork.controller('loginController', function ($scope, $location, notifyS
                 $location.path('/home');
             },
             function (error) {
-                notifyService.showError('Login failed. Review your data and try again', error);
+                notifyService.showError('Login failed. Review your data and try again');
             }
         )
     }

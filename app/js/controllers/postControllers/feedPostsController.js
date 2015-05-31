@@ -14,7 +14,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
                 $scope.posts = posts.data;
             },
             function error(error) {
-                notifyService.showError('Error requesting data')
+                notifyService.showError('Error with data request')
             }
         )
     };
@@ -30,7 +30,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
                 $scope.posts = userWallPosts.data;
             },
             function error(error) {
-                notifyService.showError('Cannot proceed data request.')
+                notifyService.showError('Error with data request')
             }
         )
     };
@@ -57,7 +57,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
                 $scope.getUserWallPosts($routeParams.username);
             },
             function error(error) {
-                notifyService.showError('Cannot proceed data request');
+                notifyService.showError('Error with data request');
             }
         )
     };
@@ -102,7 +102,7 @@ socialNetwork.controller('feedPostsController', function ($scope, $location, $ro
                 $scope.loadPosts();
             },
             function error(error) {
-                notifyService.showError("Error while liking post.", error);
+                notifyService.showError('Error with data request');
             });
     };
 

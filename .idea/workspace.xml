@@ -25,31 +25,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="commentService.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/js/services/commentService.js">
+      <file leaf-file-name="friendsFullListController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsFullListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8512035" vertical-offset="259" max-vertical-offset="1173">
-              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/services/authService.js">
+      <file leaf-file-name="friendsPreviewController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsPreviewController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/appController.js">
+      <file leaf-file-name="commentController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/commentController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedPostsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/feedPostsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+              <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editProfileController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/editProfileController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -58,28 +78,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1258">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="45" />
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="51" max-vertical-offset="1258">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friendRequest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/directives/friendRequest.js">
+      <file leaf-file-name="userHeader.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/userHeader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="friendRequests.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/friendRequests.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,38 +98,28 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="629">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="544">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1353" max-vertical-offset="2346">
-              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchUsersController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/searchUsersController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/services/userService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1292">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8429561" vertical-offset="2466" max-vertical-offset="3366">
+              <caret line="188" column="100" selection-start-line="188" selection-start-column="100" selection-end-line="188" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -138,15 +138,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/controller/userControllers/foreignUserHeaderController.js" />
-        <option value="$PROJECT_DIR$/app/js/controller/userControllers/loggedInUserHeaderController.js" />
         <option value="$PROJECT_DIR$/app/js/controller/userControllers/searchUsersController.js" />
         <option value="$PROJECT_DIR$/app/js/services/friendsService.js" />
         <option value="$PROJECT_DIR$/app/templates/logout.html" />
         <option value="$PROJECT_DIR$/app/js/services/notifyService.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/authControllers/loginController.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/authControllers/registerController.js" />
-        <option value="$PROJECT_DIR$/app/js/directives/loggedInUserHeader.js" />
         <option value="$PROJECT_DIR$/app/js/directives/friendRequest.js" />
         <option value="$PROJECT_DIR$/app/js/services/profileService.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/userControllers/searchUsersController.js" />
@@ -155,49 +150,54 @@
         <option value="$PROJECT_DIR$/app/js/services/userService.js" />
         <option value="$PROJECT_DIR$/app/templates/friendRequests.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/postControllers/foreignUserWallPostsController.js" />
-        <option value="$PROJECT_DIR$/app/js/directives/friendsPreview.js" />
-        <option value="$PROJECT_DIR$/app/templates/friendsFullList.html" />
-        <option value="$PROJECT_DIR$/app/templates/home.html" />
         <option value="$PROJECT_DIR$/app/js/directives/userHeader.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsFullListController.js" />
         <option value="$PROJECT_DIR$/app/js/services/authService.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/userControllers/foreignUserHeaderController.js" />
         <option value="$PROJECT_DIR$/app/js/directives/userPosts.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/authControllers/logoutController.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsPreviewController.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/loggedInUserHeaderController.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/userPreviewController.js" />
         <option value="$PROJECT_DIR$/app/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/login.html" />
         <option value="$PROJECT_DIR$/app/templates/register.html" />
-        <option value="$PROJECT_DIR$/app/templates/search.html" />
         <option value="$PROJECT_DIR$/app/templates/editPassword.html" />
         <option value="$PROJECT_DIR$/app/templates/editProfile.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/userHeaderController.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/services/postsService.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/editProfileController.js" />
-        <option value="$PROJECT_DIR$/app/templates/header.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendRequestsController.js" />
-        <option value="$PROJECT_DIR$/app/templates/posts.html" />
         <option value="$PROJECT_DIR$/app/templates/userPreview.html" />
-        <option value="$PROJECT_DIR$/app/templates/userWall.html" />
         <option value="$PROJECT_DIR$/app/templates/userHeader.html" />
-        <option value="$PROJECT_DIR$/app/templates/friendsPreview.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers/postControllers/feedPostsController.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/appController.js" />
-        <option value="$PROJECT_DIR$/app/css/app.css" />
+        <option value="$PROJECT_DIR$/app/js/controllers/postControllers/CommentController.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/posts.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/postControllers/commentController.js" />
+        <option value="$PROJECT_DIR$/app/templates/userWall.html" />
+        <option value="$PROJECT_DIR$/app/templates/friendsFullList.html" />
+        <option value="$PROJECT_DIR$/app/templates/friendsPreview.html" />
+        <option value="$PROJECT_DIR$/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/app/js/directives/friendsPreview.js" />
+        <option value="$PROJECT_DIR$/app/js/directives/loggedInUserHeader.js" />
         <option value="$PROJECT_DIR$/app/js/services/commentService.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsFullListController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsPreviewController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/postControllers/feedPostsController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/editProfileController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/loggedInUserHeaderController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/userHeaderController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/userControllers/userPreviewController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/authControllers/loginController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/authControllers/registerController.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/friendsControllers/friendRequestsController.js" />
+        <option value="$PROJECT_DIR$/app/templates/header.html" />
+        <option value="$PROJECT_DIR$/app/templates/search.html" />
+        <option value="$PROJECT_DIR$/app/css/app.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1911" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -565,7 +565,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/filters/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/ngStorage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
@@ -659,49 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/userSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/loggedInUserHeaderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/foreignUserWallPostsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="108" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/notifyService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/loggedInUserHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/logoutController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -726,195 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsPreviewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/userHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/userPreviewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsFullListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/userHeaderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/userPreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/profileService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="2" column="86" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="107746">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/registerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/postsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.363636" vertical-offset="910" max-vertical-offset="1836">
-          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/editProfileController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="969">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendRequestsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36084905" vertical-offset="0" max-vertical-offset="884">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/friendsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/userPosts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04009434" vertical-offset="0" max-vertical-offset="848">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/userWall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/userHeader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/friendsFullList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23502304" vertical-offset="0" max-vertical-offset="868">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11751152" vertical-offset="0" max-vertical-offset="868">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/friendsPreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07606264" vertical-offset="0" max-vertical-offset="894">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/friendsPreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/userPreview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="221">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.23077" vertical-offset="24" max-vertical-offset="918">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/feedPostsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -935,46 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1292">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/authService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/appController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/friendRequest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/friendRequests.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
@@ -983,26 +708,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/header.html">
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="629">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1292">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+    <entry file="file://$PROJECT_DIR$/app/templates/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1353" max-vertical-offset="2346">
-          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/searchUsersController.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/friendsPreview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="46" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="306">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/userWall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="272">
+          <caret line="4" column="111" selection-start-line="4" selection-start-column="111" selection-end-line="4" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.030303" vertical-offset="66342" max-vertical-offset="107746">
+          <caret line="3920" column="17" selection-start-line="3920" selection-start-column="6" selection-end-line="3920" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/friendsFullList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="425">
+          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/commentService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1207">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/friendsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/notifyService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/postsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1836">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/profileService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1015,10 +812,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/commentService.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/loggedInUserHeaderController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8512035" vertical-offset="259" max-vertical-offset="1173">
-          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/searchUsersController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/userHeaderController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/userPreviewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/appController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/friendRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/friendsPreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/loggedInUserHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/userHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/userPosts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/userPreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/userSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/authService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/logoutController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/authControllers/registerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendRequestsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsFullListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="952">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/friendsControllers/friendsPreviewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/commentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/postControllers/feedPostsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2108">
+          <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/userControllers/editProfileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="51" max-vertical-offset="1258">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/userHeader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="544">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8429561" vertical-offset="2466" max-vertical-offset="3366">
+          <caret line="188" column="100" selection-start-line="188" selection-start-column="100" selection-end-line="188" selection-end-column="100" />
           <folding />
         </state>
       </provider>

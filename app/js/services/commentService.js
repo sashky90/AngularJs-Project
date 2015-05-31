@@ -1,3 +1,5 @@
+'use strict';
+
 socialNetwork.factory('commentsData', function($http, baseServiceUrl, authentication) {
     function getPostComments(postId) {
         return $http({

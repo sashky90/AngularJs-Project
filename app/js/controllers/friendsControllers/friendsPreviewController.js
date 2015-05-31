@@ -12,7 +12,7 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
                 $scope.userFriendsData.friends = userFriends.data.friends;
             },
             function error(error) {
-                notifyService.showError('Cannot proceed data request', error);
+                notifyService.showError('Error with data request');
             }
         )
     };
@@ -24,7 +24,7 @@ socialNetwork.controller('friendsPreviewController', function ($scope, $location
                 $scope.userFriendsData.friends = ownFriendsPreview.data.friends;
             },
             function error(error) {
-                notifyService.showError('Cannot proceed data request', error);
+                notifyService.showError('Error with data request');
             }
         )
     };

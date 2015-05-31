@@ -8,7 +8,7 @@ socialNetwork.controller('friendRequestController', function ($scope, friendsSer
                 $scope.showRequests();
             },
             function error(error) {
-                notifyService.showError('Error with data request', error);
+                notifyService.showError('Error with data request');
             }
         )
     };
@@ -28,7 +28,7 @@ socialNetwork.controller('friendRequestController', function ($scope, friendsSer
                 $scope.getFriendRequest();
             },
             function error(error) {
-                notifyService.showError('Unable to approve friend request.', error);
+                notifyService.showError('Unable to approve friend request.');
             }
         )
     };
@@ -40,7 +40,7 @@ socialNetwork.controller('friendRequestController', function ($scope, friendsSer
               $scope.getFriendRequest();
           },
           function error(error) {
-              notifyService.showError('Unable to reject friend request.', error);
+              notifyService.showError('Unable to reject friend request.');
           }
       )
     };

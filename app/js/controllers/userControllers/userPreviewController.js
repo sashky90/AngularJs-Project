@@ -11,7 +11,7 @@ socialNetwork.controller('userPreviewController', function ($scope, userService,
                 $scope.userPreviewShown = true;
             },
             function error(error) {
-                notifyService.showError('Error with data request.', error);
+                notifyService.showError('Error with data request');
             }
         )
     };
@@ -23,7 +23,7 @@ socialNetwork.controller('userPreviewController', function ($scope, userService,
                 $scope.getUserPreview($scope.userUsername);
             },
             function error(error) {
-                notifyService.showError('Error wit data request.', error);
+                notifyService.showError('Friend request was not send.');
             }
         )
     };

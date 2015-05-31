@@ -1,3 +1,5 @@
+'use strict';
+
 socialNetwork.directive('friendsPreview', function () {
     return {
         restrict: 'A',

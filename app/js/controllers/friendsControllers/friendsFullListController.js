@@ -21,7 +21,7 @@ socialNetwork.controller('friendsFullListController', function ($scope, $locatio
             },
             function error(error) {
                 $location.path('/users/' + $scope.wallOwner);
-                notifyService.showError("Error with data request.");
+                notifyService.showError('Error with data request');
             });
     };
 

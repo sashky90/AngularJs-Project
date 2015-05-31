@@ -13,6 +13,6 @@ socialNetwork.controller('registerController', function ($scope, $location, noti
                 notifyService.showError('Registration failed. Please try again.');
             }
         )
-    }
+    };
     
 });

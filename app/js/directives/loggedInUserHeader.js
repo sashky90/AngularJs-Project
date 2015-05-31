@@ -1,3 +1,5 @@
+'use strict';
+
 socialNetwork.directive('loggedInUserHeader', function () {
    return {
        restrict: 'A',

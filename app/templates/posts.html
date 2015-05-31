@@ -27,10 +27,6 @@
 				<button ng-if="!post.liked" ng-click="likePost(post.id)">Like&nbsp;&#128077;</button>
 				<button ng-if="post.liked" ng-click="unlikePost(post.id)">Unlike&nbsp;&#128078;</button>
 			</span>
-
-			<span ng-if="post.commentOptionAvailable">
-				<button ng-click="commentPost(postId)">Comment&nbsp;&#x270E;</button>
-			</span>
         <div ng-if="post.editOptionAvailable" class="post-edit-buttons">
             <button ng-if="!editPostContainer[post.id]" ng-click="enableEditPost(post)">Edit&nbsp;&#x270E;</button>
             <div ng-if="editPostContainer[post.id]">
@@ -46,4 +42,4 @@
     </footer>
 </div>
 
-<h2 ng-if="posts.length == 0">No posts on this user's wall. :/</h2>
+<h2 ng-if="posts.length == 0">No posts on this user's wall.</h2>

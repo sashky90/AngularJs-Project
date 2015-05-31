@@ -131,3 +131,63 @@ body {
 .navbar-nav > li > a {
     color: #000 !important;
 }
+
+
+.friendsFullViewContainer {
+    padding: 0 2%;
+}
+
+.friendsFullViewFilterContainer {
+    padding: 2%;
+}
+
+.friendsFullViewListContainer {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.friendsList {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.friend {
+    display: inline-block;
+    padding: 1%;
+    width: 28%;
+    margin: 2% 2% 0 0;
+    vertical-align: middle;
+    border: 2px solid #ccc;
+}
+
+.friendName {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.friendProfileImage {
+    display: inline-block;
+    width: 7em;
+    max-width: 7em;
+    max-height: 7em;
+    vertical-align: middle;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+.search-results { width: 960px; clear: both; margin: 0 auto; list-style: none; margin-bottom: 20px; }
+.search-results li { margin-top: 10px; }
+.search-results li ~ li { border-top: 1px dotted #000 }
+
+.search-results .user-preview  { display: inline-block; }
